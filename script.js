@@ -32,7 +32,7 @@ async function ayush() //async function always returns a promise
     {
     setTimeout(() => {
       resolve("27 deg");
-    }, 3000);
+    }, 6000);
   });
     
   let bangaloreWeather = new Promise((resolve, reject) => {
